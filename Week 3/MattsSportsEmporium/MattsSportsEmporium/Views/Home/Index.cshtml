@@ -1,0 +1,30 @@
+﻿@model MattsSportsEmporiumModel
+@{
+    ViewBag.Title = "Matt's Sports Emporium Checkout";
+}
+<h1>Matt's Sports Emporium Checkout'</h1>
+<form asp-action="Index" method="post">
+    <div asp-validation-summary="All"></div>
+    <div>
+        <label asp-for="Subtotal">
+            Subtotal:
+        </label>
+        <input asp-for="Subtotal"  />
+    </div>
+    <div>
+        <label asp-for="TaxPercent">
+            Tax Percent:
+        </label>
+        <input asp-for="TaxPercent" />
+    </div>
+    <div>
+        <label>Tax Amount:</label>
+        <output>@ViewBag.Tax.ToString("c2")</output>
+    </div>
+    <div>
+        <label> Total:</label>
+        <output> @ViewBag.Tot.ToString("c2")</output>
+    </div>
+    <button type="submit">Calculate</button>
+    <a asp-action="Index">Clear</a>
+</form>
