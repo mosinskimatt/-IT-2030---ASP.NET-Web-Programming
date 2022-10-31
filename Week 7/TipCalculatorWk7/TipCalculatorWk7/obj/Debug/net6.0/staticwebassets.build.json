@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "Qv3lotltXKlmUiSBzaM9DJmer7kIk46tKcXMWuyAJH4=",
+  "Source": "TipCalculatorWk7",
+  "BasePath": "_content/TipCalculatorWk7",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TipCalculatorWk7\\wwwroot",
+      "Source": "TipCalculatorWk7",
+      "ContentRoot": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\wwwroot\\",
+      "BasePath": "_content/TipCalculatorWk7",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TipCalculatorWk7.styles.css",
+      "SourceId": "TipCalculatorWk7",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/TipCalculatorWk7",
+      "RelativePath": "TipCalculatorWk7.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TipCalculatorWk7.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TipCalculatorWk7.bundle.scp.css",
+      "SourceId": "TipCalculatorWk7",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/TipCalculatorWk7",
+      "RelativePath": "TipCalculatorWk7.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TipCalculatorWk7.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\wwwroot\\css\\site.css",
+      "SourceId": "TipCalculatorWk7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\wwwroot\\",
+      "BasePath": "_content/TipCalculatorWk7",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\wwwroot\\favicon.ico",
+      "SourceId": "TipCalculatorWk7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mosin\\OneDrive\\Documents\\School Fall 2022\\IT2030 - ASP.Net Web Programming\\Week 7\\TipCalculatorWk7\\TipCalculatorWk7\\wwwroot\\",
+      "BasePath": "_content/TipCalculatorWk7",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

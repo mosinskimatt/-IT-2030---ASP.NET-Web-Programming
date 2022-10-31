@@ -1,0 +1,5 @@
+In lab 7 I found that the tip calculator model had errors, CS1002. This error was a syntax error and occured becuase there was not a semicolon at the end of line 16.
+There was also an spelling error in the site.css file. Width was spelled wrong (widht) in line 13.
+There was also an error in the index.cshtml file on line 23. It was a syntax error where @viewbag.Twentyfive was spelled TwentyFeve and could not communicate with the controller. The other viewbag elements on the page were spelled wrong as well.
+Making sure your variable types are the same is crucial.
+When the lab was calculating the incorrect tip amount, I deleted the method that was causing this and wrote my own methods to be called by the controller to calculate the proper amounts for the tip.
