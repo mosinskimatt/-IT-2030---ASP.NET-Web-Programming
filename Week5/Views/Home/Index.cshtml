@@ -1,0 +1,61 @@
+﻿@model MattsSportsEmporiumModel
+@{
+    ViewData["Title"] = "Matt's Sports Emporium";
+}
+<div class="text-center">
+    <h1 class="display-4">Matt's Sports Emporium</h1>
+</div>
+
+
+    <form asp-action="Index" method="post" class="form-horizontal">
+        <p>
+            <h2><b>What's Your Favorite Sport?</b></h2>
+           Here at Matt's sports emporium we carry anything you may need for any sport.
+           Search our extensive line of products and find what you need and
+           feel free to reach out to us if you have any questions.
+        </p>
+    @*<div asp-validation-summary="All"></div>*@
+    <div class="container"></div>
+
+    <div class="row form-group">
+        <label asp-for="Subtotal" class="custom-control-label col-sm-3"></label>
+        <div class="col-sm-3">
+            <input asp-for="Subtotal" class="form-control" />
+        </div>
+        <span asp-validation-for="Subtotal" class="col text-danger"></span>
+    </div>
+
+    <div class="row form-group">
+        <label asp-for="TaxPercent" class="custom-control-label col-sm-3"></label>
+        <div class="col-sm-3">
+            <input asp-for="TaxPercent" class="form-control" />
+        </div>
+        <span asp-validation-for="TaxPercent" class="col text-danger"></span>
+    </div>
+
+    <div class="row form-group">
+        <label class ="col-sm-3">Tax Amount:</label>
+        <div class="col-sm-3 ">
+        <input value=@ViewBag.TaxCalculator.ToString("c2") readonly class="form-control"/>
+               
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <label class="col-sm-3">Total:</label>
+        <div class="col-sm-3 ">
+            <input value=@ViewBag.TotalCalculator.ToString("c2") readonly class="form-control" />
+
+        </div>
+    </div>
+    
+    <div class="row form-group">
+        <div class="col offset-sm-3 p1-0"> 
+            <button type="submit" class="btn-primary p-2 mr-5">Calculate</button>
+            <a asp-action="Index" class="btn btn-outline-secondary p-2">Clear</a>
+       </div>
+       
+    </div>
+    
+    
+</form>
