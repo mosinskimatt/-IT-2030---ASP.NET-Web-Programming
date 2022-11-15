@@ -31,3 +31,6 @@ C:\Users\mosin\OneDrive\Documents\School Fall 2022\IT2030 - ASP.Net Web Programm
 C:\Users\mosin\OneDrive\Documents\School Fall 2022\IT2030 - ASP.Net Web Programming\Week 3\MattsSportsEmporium\MattsSportsEmporium\obj\Debug\netcoreapp3.1\MattsSportsEmporium.pdb
 C:\Users\mosin\OneDrive\Documents\School Fall 2022\IT2030 - ASP.Net Web Programming\Week 3\MattsSportsEmporium\MattsSportsEmporium\obj\Debug\netcoreapp3.1\MattsSportsEmporium.genruntimeconfig.cache
 C:\Users\mosin\OneDrive\Documents\School Fall 2022\IT2030 - ASP.Net Web Programming\Week 3\MattsSportsEmporium\MattsSportsEmporium\obj\Debug\netcoreapp3.1\MattsSportsEmporium.csproj.CopyComplete
+C:\Users\mosin\OneDrive\Documents\School Fall 2022\IT2030 - ASP.Net Web Programming\Week 3\MattsSportsEmporium\MattsSportsEmporium\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\mosin\OneDrive\Documents\School Fall 2022\IT2030 - ASP.Net Web Programming\Week 3\MattsSportsEmporium\MattsSportsEmporium\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\mosin\OneDrive\Documents\School Fall 2022\IT2030 - ASP.Net Web Programming\Week 3\MattsSportsEmporium\MattsSportsEmporium\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs

@@ -1,0 +1,3 @@
+This lab was difficult for me. For starters, the frameework that I was using was not compatible with the nuget packages that I needed to use,
+so I had to figure out how to switch the framework and then update the nuget packages. It turns out it wasn't that had. You just have to right click the solution, 
+select properties, change the framework and run the application.
