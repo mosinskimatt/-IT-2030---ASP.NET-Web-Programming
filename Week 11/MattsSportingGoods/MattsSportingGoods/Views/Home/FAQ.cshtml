@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "FAQs";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="accordion" id="faq">
+    <h2 class="accordion-item" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <strong>Do we ship internationally?</strong>
+        </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faq">
+        <div class="accordion-body">
+            If your country is listed in the dropdown when completing the shipping form then yes, we ship to your country. Otherwise we do not.
+        </div>
+    </div>
+
+    <h2 class="accordion-item" id="headingTwo">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <strong>What is the return policy?</strong>
+        </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faq">
+        <div class="accordion-body">
+            We aim to satisfy all of our customers. Which is why we offer a satisfaction garuntee return policy.
+            As long as the item is returned in "like new" condition, you will receive a refund. Refunds are at the 
+            discretion Matts Sporting Goods.
+        </div>
+    </div>
+
+    <h2 class="accordion-item" id="headingThree">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            <strong>Question 3</strong>
+        </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faq">
+        <div class="accordion-body">
+            Answer 3 goes here
+        </div>
+    </div>
+</div>
