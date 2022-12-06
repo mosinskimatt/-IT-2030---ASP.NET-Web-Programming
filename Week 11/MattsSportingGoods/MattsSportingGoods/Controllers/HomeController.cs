@@ -15,9 +15,8 @@ namespace MattsSportingGoods.Controllers
         [HttpGet]
         public IActionResult Tools()
         {
-            HttpContext.Session.SetString("Course", "IT2030");
-            HttpContext.Session.SetString("StudentID", "S123456");
-            HttpContext.Session.SetString("CurrentDate", "20221117");
+            HttpContext.Session.SetString("Name", "Mary");
+            HttpContext.Session.SetString("CurrentDate", "2022-12-01");
 
             ViewBag.TaxAmount = 0;
             ViewBag.TotalSalePrice = 0;

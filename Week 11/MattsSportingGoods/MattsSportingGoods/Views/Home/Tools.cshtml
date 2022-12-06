@@ -11,12 +11,8 @@
     <div class="row form-group">
         Session state values are:<br />
         <div class="col-sm-3">
-            <label for="course">Course</label>
-        <input value=@Context.Session.GetString("Course") readonly /><br />
-        </div>
-        <div class="col-sm-3">
-            <label for="StudentID">Student ID</label>
-        <input value=@Context.Session.GetString("StudentID") readonly/><br />
+            <label for="course">Name</label>
+        <input value=@Context.Session.GetString("Name") readonly /><br />
         </div>
         <div class="col-sm-3">
             <label for="currentDate">Today's Date</label>
