@@ -7,9 +7,24 @@
     <h1 class="display-4">Tools</h1>
 </div>
 
-<div>@Context.Session.GetString("course")<br />
-@Context.Session.GetString("StudentID")<br />
-@Context.Session.GetString("CurrentDate")</div>
+<div class="container">
+    <div class="row form-group">
+        Session state values are:<br />
+        <div class="col-sm-3">
+            <label for="course">Course</label>
+        <input value=@Context.Session.GetString("Course") readonly /><br />
+        </div>
+        <div class="col-sm-3">
+            <label for="StudentID">Student ID</label>
+        <input value=@Context.Session.GetString("StudentID") readonly/><br />
+        </div>
+        <div class="col-sm-3">
+            <label for="currentDate">Today's Date</label>
+        <input value=@Context.Session.GetString("CurrentDate") readonly />
+        </div>
+    </div>
+     
+</div>
 
 <form asp-action="Tools" method="post">
     @*<div asp-validation-summary="All"></div>*@
