@@ -1,13 +1,23 @@
 This course taught me all about MVC. I learned that the model is where your logic goes. The controller determines where 
-that logic is sent and how it is used on the view, which is the last part of the MVC. I learned different ways to style
-using bootstrap and other techniques. This type of styling and creating different elements of a functional webpage
+that logic is sent and how it is used on the view, which is what the user sees and is their interface. I learned different ways to 
+style using bootstrap and other techniques. This type of styling and creating different elements of a functional webpage
 stressed the importance of readability and having a user friendly interface.
 
 The style changes that I made in this lab are mostly in the layout.cshtml file and the changes I made are related to the
-navbar. I changed the color of the navbar to match the color of the rest of the file. This involved making the background
-the primary color. I also added a search input box to the navbar. When the window is shrunk to a smaller view, it now
-says menu, directing the user to the options available in the navbar. I also centered the text on the about page to help
-with readability.
+navbar. I changed the color of the navbar to match the color of the jumbotron. This involved making the background
+the primary color an changing the text to white. I also added a search input box to the navbar. When the window is shrunk to a 
+smaller view, it now says menu, directing the user to the options available in the navbar. I also centered the text on the about page 
+to help with readability.
+
+Three things I would like to include in my application are
+1. Adding a POS where customers could checkout what they found and purchased. 
+2. Adding images. Images are helpful to the viewer. I attempted to add a brand logo in the very left of the nav bar but for
+some reason the image wouldn't load properly when I would load the webpage.
+3. Adding logic to make the search bar functional.
+I don't know how I would make these changes. I feel that it would involve advanced programming skills that I yet to possess.
+What I would like changed most is for this course to be longer so that I could develope the skills neccessary to make these 
+changes. Even after this course I will continue my studies to build on this application. This application provides a great template
+for future use.
 
 This course has been great and super helpful. I now feel confident in MVC and this has been a great addition to my C# skills.
 Thank You for a great semester.
