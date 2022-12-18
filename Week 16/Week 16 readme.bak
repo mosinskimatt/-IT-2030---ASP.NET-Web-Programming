@@ -1,0 +1,10 @@
+This course taught me all about MVC. I learned that the model is where your logic goes. The controller determines where 
+that logic is sent and how it is used on the view, which is the last part of the MVC. I learned different ways to style
+using bootstrap and other techniques. This type of styling and creating different elements of a functional webpage
+stressed the importance of readability and having a user friendly interface.
+
+The style changes that I made in this lab are mostly in the layout.cshtml file and the changes I made are related to the
+navbar. I changed the color of the navbar to match the color of the rest of the file. This involved making the background
+the primary color. I also added a search input box to the navbar. When the window is shrunk to a smaller view, it now
+says menu, directing the user to the options available in the navbar. I also centered the text on the about page to help
+with readability.
